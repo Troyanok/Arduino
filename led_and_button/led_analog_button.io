@@ -15,7 +15,7 @@ void loop()
   }
   else
   {
-    for (int i = 0; i <= 256; i ++)
+    for (int i = 0; i <= 255; i ++)
     {
       analogWrite(LED, i);
       delay(10);
